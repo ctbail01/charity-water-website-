@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+}
+
+header.nav {
+    background: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-donate {
+    background-color: #f4a300;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffd100;
+    padding: 4rem 2rem;
+    position: relative;
+}
+
+.hero-left {
+    flex: 1 1 300px;
+    padding-right: 2rem;
+}
+
+.hero-left h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero-left p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.donate-btn {
+    padding: 0.6rem 1rem;
+    background-color: white;
+    color: #f4a300;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-right {
+    flex: 1 1 300px;
+    position: relative;
+}
+
+.hero-right img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info-box, .impact-box {
+    position: absolute;
+    background: white;
+    padding: 0.8rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    max-width: 150px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.info-box {
+    top: 10%;
+    left: 60%;
+}
+
+.impact-box {
+    bottom: 5%;
+    left: 65%;
+}
